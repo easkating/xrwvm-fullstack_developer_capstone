@@ -1,3 +1,10 @@
+.navbar.navbar-expand-lg.navbar-light {
+  background-color: rgb(85, 88, 88) !important;
+  height: 0.7in !important;
+}
+
+
+
 .navcontainer{
   display: flex;
   flex: 1;

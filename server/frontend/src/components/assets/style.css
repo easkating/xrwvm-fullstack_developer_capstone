@@ -1,3 +1,9 @@
+.navbar.navbar-expand-lg.navbar-light {
+  background-color: rgb(85, 88, 88) !important;
+  height: 0.7in !important;
+  color: whitesmoke !important;
+}
+
 img{
   width: 60%;
   align-self: center;
@@ -83,11 +89,15 @@ img{
   justify-self: center;
 }
 
-.nav_item{
+.nav-item{
   margin-left:15px;
   font-size: 20px;
-  color: black;
+  color: whitesmoke !important;
   align-self: center;
+}
+
+.nav-link { 
+  color: whitesmoke;
 }
 
 .username{

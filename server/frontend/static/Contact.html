@@ -3,6 +3,7 @@
   <!-- Link the style sheet here -->
   <link rel="stylesheet" href="/static/style.css">
   <link rel="stylesheet" href="/static/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 
 
 </head>
@@ -28,37 +29,87 @@
       </div>
     </div>
   </nav>
-  
-  <div class="banner">
-    <div style="text-align:center">
-      <h2  style= "margin-top: 15%;">Contact Us</h2>
-      <p>Let us know about you, leave us a message:</p>
-    </div>
-    <div class="row">
-      <div class="column">
-        <form action="/action_page.php">
-          <label for="fname">First Name</label>
-          <input type="text" id="fname" name="firstname" placeholder="Your name..">
-          <label for="lname">Last Name</label>
-          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-          <label for="country">Country</label>
-          <select id="country" name="country">
-            <option value="colombia">Colombia</option>
-            <option value="canada">Canada<cd../option>
-            <option value="usa">USA</option>
-          </select>
-          <label for="subject">Subject</label>
-          <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
-          <input type="submit" value="Submit" class="btn">
-        </form>
-      </div>
-    </div>
-    <h3 style="margin-top: 5%;">Or you can find us on: </h3>
-      <div class="card" style="width: 70%;margin-top: 10px;align-self: center;">
-        <img src="/static/map.jpeg" class="card-img-top" style="width:30%; align-self: center;">
-      </div>
-  </div>
+  <section id="ContactoUper">
+  <div class ="Container">
 
+    <div style="text-align:center">
+      <h2>Contact Us</h2>
+    </div>
+
+    <div class = "row">
+        <div class = "col-sm-12 col-md-4 col-lg-4 col-xl-4">
+          
+          <div style="text-align:center">
+            <p>Let us know about you, leave us a message:</p>
+          </div>
+          
+          <form action="/action_page.php">
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+            <label for="country">Country</label>
+            <select id="country" name="country">
+              <option value="colombia">Colombia</option>
+              <option value="canada">Canada<cd../option>
+              <option value="usa">USA</option>
+            </select>
+            <label for="subject">Subject</label>
+            <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+            <input type="submit" value="Submit" class="btn">
+          </form>
+
+
+        </div>
+        <div class = "col-sm-12 col-md-8 col-lg-8 col-xl-8">
+        
+          <p style="padding-left: 21%;">Or you can find us on:</p>
+            <div class = "text-center">
+            <div class="img-fluid" >
+              <img src="/static/map.jpeg" class="img-thumbnail">
+            </div>
+          </div>
+
+        </div>
+
+
+
+    </div>
+
+    <p class="lead" style="text-align: center;">
+      We are waiting for your visit in our Medellin - Colombia office, call us 574 444 44 44 or email ourcompan@ourdomain.com
+    </p>
+  </div>
+</section>
+<section id="ContactoLower">
+  <div class="container" style="background-color:  rgb(85, 88, 88); color: whitesmoke; height: 100px;" >
+    <div class="row">
+      <div class="col-sm-12 col-md-4" style="display: flex; justify-content: center; align-content: center;">
+        <i class="bi bi-geo-alt-fill" style="font-size: 1.5rem;"></i>
+        <p>    Address:   </p>
+        <p> Main av Stret 18 North East 315</p>
+      </div>
+      <div class="col-sm-12 col-md-4" style="display: flex; justify-content: center; align-content: center;">
+        <i class="bi bi-telephone-fill" style="font-size: 1.5rem;"></i>
+        <p>    Telephone:   </p>
+        <p>  +574 123 45 67</p>
+      </div>
+      <div class="col-sm-12 col-md-4" style="display: flex; justify-content: center; align-content: center;">
+        <i class="bi bi-envolope-at-fill" style="font-size: 1.5rem;"></i>
+        <p>    Email:   </p>
+        <p> contact@ourcompany.com </p>
+      </div>
+    </div>
+  </div>
+  <div class="Container" style="background-color:  rgb(85, 88, 88); color: whitesmoke; height: 70px; display: flex; align-items: center; justify-content: center; font-size: 1.5rem;" >
+        <i class="bi bi-instagram" style="padding: 0px 10px;"></i>
+        <i class="bi bi-facebook" style="padding: 0px 10px;"></i>
+        <i class="bi bi-twitter-x" style="padding: 0px 10px;"></i>
+  </div>
+</section>
+
+  
+</div>
     
 </div>
 

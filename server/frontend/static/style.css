@@ -141,7 +141,19 @@ img{
 .navbar.navbar-expand-lg.navbar-light {
   background-color: rgb(85, 88, 88) !important;
   height: 0.7in !important;
+  color: whitesmoke !important;
 }
+
+.edwin {
+  height: 400px;
+}
+
+.contacto {
+  background-color: rgb(78, 255, 255) !important;
+  height: 250px !important;
+  color: whitesmoke;
+}
+
 
 .contaier-fluid {
   color: whitesmoke !important;
